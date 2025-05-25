@@ -46,44 +46,41 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+
 .wrap{
-	width: 800px;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto;
+	width: 1024px;
 	font-family: sans-serif;
 }
+
 .header{
-	border: 1px solid black;
-	padding: 20px;
-}
-.content{
-	color: blue;
-	border: 2px solid red;
-	padding: 30px;
-	height: 250px;
-}
-.content p{
 	margin-bottom: 30px;
 }
-.button{
-	width: 100px;
-	background: blue;
+.content{
+	margin: 20px;
+}
+.course{
+	display: flex;
+	justify-content: space-around;
+}
+
+.course-item{
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	border-bottom: 3px solid gray;
+	width: 300px;
+}
+.course-item h2{
+	text-align: center;
+	font-size: 25px;
+}
+
+.footer{
+	background: gray;
+	color: #fff;
+	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	text-align: center;
-}
-.button a{
-	color: white;
-	display: block;
-	text-decoration: none;
-	/* 刪除底線 */
-}
-.button:hover{
-	background: black;
-}
-.footer{
-	background: pink;
-	text-align: center;
-	padding-top: 25px;
-	padding-bottom: 15px;
 }
